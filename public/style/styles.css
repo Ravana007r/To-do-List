@@ -1,6 +1,7 @@
 html {
   background-color: #E4E9FD;
   background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
+  /* background-image: repeating-linear-gradient(65deg, #E4E9FD, #aa83ed 50%,#6118e0 100%); */
   min-height: 1000px;
   font-family: 'helvetica neue';
 }
@@ -19,7 +20,7 @@ h1 {
 }
 
 #heading {
-  background-color: #A683E3;
+  background-color: #a682e3;
   text-align: center;
 }
 
@@ -51,12 +52,12 @@ p {
   color: #00204a;
 }
 
-form {
+form.item {
   text-align: center;
   margin-left: 20px;
 }
 
-button {
+.add {
   min-height: 50px;
   width: 50px;
   border-radius: 50%;
